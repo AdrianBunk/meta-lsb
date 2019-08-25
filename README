@@ -1,0 +1,17 @@
+This layer aims to be able to provide basic LSB compatible images.
+There are some challenges for OE as LSB isn't always 100% relevant
+to its target embedded audiences. 
+
+One challenge is that the LSB spec is no longer being actively
+developed [https://github.com/LinuxStandardBase/lsb] and has 
+components which are end of life or significantly dated,
+expect security vulnerabilities and use at your own risk.
+
+* Qt4 is provided by the separate meta-qt4 layer,
+  which is currently unmaintained:
+  http://git.yoctoproject.org/cgit/cgit.cgi/meta-qt4
+
+* libpng 1.2 isn't provided; oe-core includes the latest release
+  of libpng instead.
+
+* pax (POSIX standard archive) tool is not provided.
