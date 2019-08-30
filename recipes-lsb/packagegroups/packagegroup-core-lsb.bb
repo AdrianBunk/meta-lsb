@@ -223,9 +223,6 @@ RDEPENDS_packagegroup-core-lsb-desktop = "\
     gtk+ \
     atk \
     alsa-lib \
-"
-
-QT4PKGS = " \
     libqtcore4 \
     libqtgui4 \
     libqtsql4 \

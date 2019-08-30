@@ -7,10 +7,6 @@ developed [https://github.com/LinuxStandardBase/lsb] and has
 components which are end of life or significantly dated,
 expect security vulnerabilities and use at your own risk.
 
-* Qt4 is provided by the separate meta-qt4 layer,
-  which is currently unmaintained:
-  http://git.yoctoproject.org/cgit/cgit.cgi/meta-qt4
-
 * libpng 1.2 isn't provided; oe-core includes the latest release
   of libpng instead.
 
